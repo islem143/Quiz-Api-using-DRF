@@ -1,0 +1,18 @@
+exams=Exam.objects.all()
+
+    #    exam_questions={}
+    #    questions=Question.objects.filter(id__in=exams)
+     
+       
+    #    for q in questions:
+    #        if q.exam_id in exam_questions:
+    #              exam_questions[q.exam_id].append(q.id)
+    #        else:
+    #             exam_questions[q.exam_id]=[q.id]
+    #    res=[]
+
+    #    for  e in exams:
+    #         if(e.id in exam_questions):
+    #             res.append({"title":e.title,"duration":e.duration,"teacher":e.teacher_id,"questions":exam_questions[e.id]})
+    #         res.append({"title":e.title,"duration":e.duration,"teacher":e.teacher_id,"questions":[]})    
+       
